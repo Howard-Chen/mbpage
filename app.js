@@ -12,7 +12,7 @@ app.get("/",function(req,res){
 //     console.log("Server has Started");
 // });
 
-app.listen(80,function(){
+app.listen(80,process.env.IP,function(){
     console.log("Server has Started");
 });
 
