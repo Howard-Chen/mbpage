@@ -1,0 +1,63 @@
+.navbar{
+	padding:0px;
+
+}
+
+
+.navbar-nav .nav-link{
+	color: white;
+	padding : 0px;
+}
+
+.navbar-nav .nav-link:hover{
+	color: grey;
+	padding : 0px;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+#nav-mb .active{
+	background-color: #333;
+	padding : 0px;
+}
+
+#nav-mb .navbar-text{
+	color: white;
+	padding : 0px;
+	margin:0px;
+	letter-spacing: 2px;
+	font-family:微軟正黑體,Microsoft JhengHei;
+}
+
+#nav_logo{
+	width:48px;
+	height :34px;
+}
+
+#nav-mb{
+	background-color:rgba(50, 50, 50, 0.2);
+	z-index:10;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	.navbar-text{
+		font-size: 0.7rem;
+	}
+
+
+	#nav_logo{
+		width:35px;
+		height :25px;
+	}
+
+	#nav-mb{
+		background-color:rgba(50, 50, 50, 0.8);
+
+	}
+
+}
