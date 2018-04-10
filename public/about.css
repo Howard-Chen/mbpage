@@ -1,0 +1,122 @@
+#top{
+	position: absolute;
+	top: 5%;
+	left: 0;
+	height: auto;
+	width:    100%;
+}
+
+.container{
+    background-image: url("us.png");
+	background-repeat:no-repeat;
+	background-size:contain;
+    
+    margin-top:23%;
+    width:500px;
+    padding:0;
+    
+}
+
+.title{
+ 	position: relative;
+	font-size: 30px;
+	
+    text-align:center;
+    letter-spacing: 5px;
+    padding-top:25.5%;
+    margin:0;
+}
+
+
+
+
+.content{
+  	position: relative;
+    
+	
+    letter-spacing: 1px;
+      line-height: 1.9;
+    font-size: 1 rem;
+	font-family:微軟正黑體,Microsoft JhengHei;
+}
+
+p.content  {
+  margin:0;
+}
+
+
+
+
+#tool{
+	position: relative;
+	height: auto;
+	width:    100%;
+ padding-bottom:20%;
+}
+
+
+
+p{
+	
+		font-family:微軟正黑體,Microsoft JhengHei;
+}
+
+
+
+.bg{
+	background-image: url("bg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	z-index: -10;
+	width: 100%;
+
+/*	position: fixed;*/
+	top: 0;
+	left: 0;
+	padding-top:100px;
+}
+
+
+
+body{
+    background-color: black;
+    color:white;
+    height: 100%;
+
+}
+
+
+html {
+	background-color: black;
+    height: 100%;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+    background-image: url("us.png");
+	background-repeat:no-repeat;
+	background-size:contain;
+    
+    margin-top:23%;
+    width:80%;
+    margin-left: 10%;
+     margin-right: 10%;
+    padding:  0;
+    }
+    
+    .title{
+ 
+	font-size: 16px;
+    }
+ 
+#tool{
+	position: relative;
+	height: auto;
+	width:    100%;
+ padding-bottom:20%;
+}
+    
+
+
+}

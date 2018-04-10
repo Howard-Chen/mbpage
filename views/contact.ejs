@@ -1,17 +1,68 @@
 <% include partials/header %>
 
-		<link rel="stylesheet" href="contact.css">
-		
-    </head>
-    
-	<div class="bg">
-	    
-    <body>
-        
-    	<% include partials/nav %>
+<link rel="stylesheet" href="contact.css">
+
+</head>
+
+<body>
+
+   
+ 	<% include partials/nav %>
+ <div class="bg">
+        <div class="container mt-5">
+
+           
+
+                <div class="borderline text-center">
+                    <p class="m-2" id="contact-us">聯絡我們</p>
+                </div>
 
 
-	    <% include partials/footer %>
-	
-    </body>
+                <div class="borderline text-center justify-content-center p-3">
+                 
+                       <div class="videowrapper">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14455.886824494672!2d121.5779945!3d25.0689481!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe828c65d3c7058df!2z6buR5bGx5Z-65Zyw!5e0!3m2!1szh-TW!2stw!4v1522495309043" width="400"
+                           height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                      </div>
+                </div>
+                <div class="borderline px-auto ">
+                    <p class="m-2">電話 : 02-27954585</p>
+                    <p class="m-2">地址 : 台北市內湖區民權東路六段15巷41號一樓</p>
+                    <p class="m-2">Email : lance@mountain.black</p>
+                </div>
+
+
+                <form action="/contact" id="contact-form" class="mt-5" method="post" role="form">
+                    <div class="between-group d-flex flex-column  flex-sm-row">
+                        <!--<label for="name">稱呼方式</label>-->
+                        <input id="name" class="my-2" name="name" type="text" placeholder="貴姓大名" required="required">
+
+                        <!--<label for="email">Email</label>-->
+                        <input id="email" class="my-2" name="email" type="text" placeholder="Email" required="required">
+                    </div>
+                    <div class="">
+                        <!--<label for="topic">主題</label>-->
+                        <input id="topic" class="my-2" name="topic" type="text" placeholder="主題">
+                    </div>
+                    <div class="">
+                        <!--<label for="message">訊息內容</label>-->
+                        <textarea id="message" class="my-2" name="message" placeholder="訊息內容" rows="5" required="required"></textarea>
+                    </div>
+                    <div class="center-group d-flex">
+                        <button id="send" type="submit" class="mb-5">發送</button>
+                    </div>
+
+                </form>
+
+
+
+        </div>
+
+
+    </div>
+
+   <% include partials/footer %>
+
+</body>
+
 </html>

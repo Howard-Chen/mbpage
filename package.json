@@ -4,7 +4,7 @@
   "description": "test",
   "main": "app.js",
   "scripts": {
-     "start": "node app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/Howard-Chen/mbpage#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "ejs": "^2.5.7",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "file-system": "^2.2.2",
+    "nodemailer": "^4.6.3"
   }
 }
